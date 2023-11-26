@@ -1,0 +1,67 @@
+
+.sticky-nav { 
+    position: sticky;   
+}
+
+.navbar {
+    background-color: rgb(252, 252, 252);
+    box-shadow: 0 2px 10px 1px rgba(148, 148, 148, 0.2);
+    z-index: 9999;
+    top: 0px;
+}
+
+.nav-link {
+    color: black !important;
+    font-weight: 600 !important;
+    padding: 10px 20px !important;
+}
+
+.active {
+    color: #20B15A !important;
+}
+
+.logo {
+    height: 65px;
+}
+
+.login-btn {
+    border: 1px solid #20B15A;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-left: 15px;
+    font-weight: 600
+}
+
+.register-btn {
+    background-color: #20B15A;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    margin-left: 30px;
+    font-weight: 600
+}
+
+
+.navbar-collapse.show {
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 0 20px 2px #d3d3d361;
+    border-radius: 20px;
+}
+
+
+
+
+ @media (max-width: 991px) { 
+    .register-btn, 
+    .login-btn  {
+        margin:5px 0 ;
+        
+    }
+
+    .nav-link:hover {
+        background-color: #D7F5DC;
+    }
+  }

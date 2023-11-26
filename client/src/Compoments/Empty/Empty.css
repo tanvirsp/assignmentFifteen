@@ -1,0 +1,9 @@
+.empty-section {
+    box-shadow: none !important;
+    text-align: center;
+    border: none !important;
+}
+
+.empty-section img {
+    width: 150px;
+}

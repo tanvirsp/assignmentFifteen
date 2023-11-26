@@ -1,0 +1,15 @@
+.form-section {
+    max-width: 700px;
+    margin: 45px auto;
+    padding: 45px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 2px rgba(214, 214, 214, 0.4);
+}
+
+.form-section .title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 45px;
+}

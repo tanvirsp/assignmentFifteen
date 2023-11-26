@@ -1,0 +1,52 @@
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 35px 0;
+    font-weight: 600;
+    font-size: 35px;
+    font-family: 'Poppins';
+    color: #3D3D3D;
+
+}
+.table-container {
+    overflow-x: auto;
+}
+.table-container table {
+    width: 100%;
+    border-spacing: 0 15px;
+    border-collapse: separate;
+    
+   
+   
+}
+
+.table-container table tr, th, td {
+    padding: 10px 25px;
+    border: 1px solid #cbcbcb29
+}
+
+
+
+.table-container table th {
+    background-color:#00A550 !important;
+    color: white;
+}
+
+.table-container table tr {
+    background-color: white;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+}
+
+.table-container table .left-cell {
+    border-radius: 10px 0 0 10px;
+    background-color: #f7f7f7; 
+    /* color: white; */
+}
+
+.table-container table .right-cell {
+    border-radius: 0 10px 10px 0;
+    background-color: #f7f7f7; 
+}
